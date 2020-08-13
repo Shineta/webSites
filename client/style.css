@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100vh;
+}
+/* 
+  body {
+  }
+  
+  .container1 {
+  } */
+
+header {
+  background-color: green;
+  height: 20rem;
+  width: flex;
+}
+
+nav {
+  flex: start;
+  background-color: blue;
+  height: 10rem;
+  width: flex;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  flex: 1;
+  background-color: red;
+  height: flex;
+  width: 80rem;
+  overflow: hidden;
+}
+
+main .workSpaceTabs {
+  height: 5rem;
+  background-color: orange;
+}
+.workSpaceFrame {
+  height: 100rem;
+  width: 66vw;
+  /* margin-right: 100rem; */
+  /* padding-right: 55rem; */
+}
+
+aside {
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: yellow;
+  height: flex;
+  width: 30rem;
+  padding: 1.5rem;
+}
+
+.admin {
+  background-color: purple;
+  text-align: center;
+  padding: 1.5rem;
+}
+.proverb {
+  text-align: center;
+  height: 20rem;
+}
+
+footer {
+  height: 8rem;
+  background-color: black;
+  position: sticky;
+}
+.runningAnnouncement {
+  color: White;
+  font-size: 5rem;
+}
+.loading {
+  text-align: center;
+}
